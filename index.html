@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>ИF - Home Page</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
   <!-- Logo NF + NAV -->
@@ -32,7 +34,7 @@
   </section>
   <section class="main__sectionTable">
     <h3>Next Shows</h3>
-    <table class="main__table">
+    <table class="main__table" data-aos="fade-right">
       <tr>
         <th>City</th><th>Venue</th><th>Avg   Ticket $</th>
       </tr>
@@ -52,7 +54,7 @@
   </section>
   <section class="main__sectionVideo">
     <h2>Fan Footage</h2>
-    <iframe width="709" height="399" src="https://www.youtube.com/embed/HJK4YcCOY70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe data-aos="fade-left" width="709" height="399" src="https://www.youtube.com/embed/HJK4YcCOY70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </section>
   </main>
   <!-- footer &copy; + Media Icons -->
@@ -64,5 +66,8 @@
     <a class="footer__anchor" href="https://www.instagram.com/nfrealmusic/?hl=es"><img src="./assets/instagramIcon.png" alt="instagram acces"></a>
   </div>
   </footer>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
