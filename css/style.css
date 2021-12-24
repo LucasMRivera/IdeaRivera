@@ -271,56 +271,24 @@
 
 /* MAIN CONTACT */
 
-.main__contact {
-  background-image:url('../assets/NFgallery1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.form__contact{
-  width: 500px;
-  background: rgb(195,7,63);
-  background: linear-gradient(42deg, rgba(195,7,63,1) 0%, rgba(195,7,63,1) 50%, rgba(247,243,237,1) 100%);
-  border: 2px solid black;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
-}
-.form__contact label{
-  display: block;
-  margin-top: 15px;
+.formStyle .row .formBorder{
+  border: 1px solid #1A1A1D;
+  border-radius: 10px;
 }
 
-.form__contact input{
+.formStyle {
+  background: #c3073f;
+}
+
+.formStyle button{
+  background: #c3073f;
+  color: #f5f4e8;
+  border-radius: 2px;
   border: 1px solid black;
-  border-radius: 4px;
-  width: 100%;
-  padding: 5px 10px;
-  margin-top: 5px;
 }
 
-.form__contact textarea{
-  width: 100%;
-  margin-top: 5px;
-  border: 1px solid black;
-  border-radius: 4px;
-}
 
-.form__contact input[type="submit"], input[type="reset"]{
-  background-color: #1A1A1D;
-  border: 1px solid black;
-  color: #fff;
-  width: 48%;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
-.form__contact input[type="submit"]:hover , input[type="reset"]:hover{
-  background-color: #fff;
-  color: #1A1A1D;
-}
 /* FOOTER */
 
   .footerStyle{

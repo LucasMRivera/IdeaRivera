@@ -14,7 +14,7 @@
 <body>
   <!-- Logo NF + NAV -->
   <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
       <div class="container-fluid">
         <h1 class="navbar-brand">NF</h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,30 +33,35 @@
     </nav>
   </header>
   <!-- form -->
-  <main class="main__contact">
-    <section>
-      <form action="#" class="form__contact">
-        
-          <label for="First Name">First Name</label>
-          <input type="text" name="First Name" id="First Name" placeholder="First Name..">
-
-          <label for="Last Name">Last Name</label>
-          <input type="text" name="Last Name" id="Last Name" placeholder="Last Name..">
-
-          <label for="Email">Email</label>
-          <input type="email" name="Email" id="Email" placeholder="Email..">
-
-          <label for="Phone">Phone</label>
-          <input type="number" name="Phone" id="Phone" placeholder="Phone..">
-
-          <label for="Leave A Message">Leave A Message</label>
-          <textarea name="Leave A Message" id="Leave A Message" cols="30" rows="10" placeholder="Leave A Message.."></textarea>
-
-          <input type="reset" value="Reset">
-          <input type="submit" value="Submit">
-        
-      </form>
-    </section>
+  <main class="container-fluid formStyle">
+    <form class="row">
+      <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 pl-2 pt-2 pb-2 mt-2 mb-2 ml-2 formBorder bg-secondary">
+      <div class=" mb-3">
+        <label for="Name" class="form-label">Name</label>
+        <input type="text" class="form-control border border-dark" id="Name">
+        </div>
+      <div class=" mb-3">
+        <label for="Last Name" class="form-label">Last Name</label>
+        <input type="text" class="form-control border border-dark" id="Last Name">
+      </div>
+      <div class="mb-3">
+        <label for="Email" class="form-label">Email</label>
+        <input type="text" class="form-control border border-dark" id="Email">
+      </div>
+      <div class="mb-3">
+        <label for="Date" class="form-label">Date</label>
+        <input type="date" class="form-control border border-dark" id="Date">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Leave a Message</label>
+        <textarea class="form-control border border-dark" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="d-flex justify-content-center">
+      <button type="reset" class="col btn btn-sm">Reset</button>
+      <button type="submit" class="col btn btn-sm">Submit</button>
+      </div>
+    </div>
+    </form>
   </main>
   <!-- footer -->
 
