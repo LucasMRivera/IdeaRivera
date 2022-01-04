@@ -107,6 +107,9 @@
   width: 300px;
 }
 
+.galleryStyle img:hover{
+  transform: rotate(5deg);
+}
 
 
 /* MAIN CONTACT */
@@ -121,12 +124,18 @@
 }
 
 .formStyle button{
-  background: #c3073f;
-  color: #f5f4e8;
+  background: #1A1A1D;
+  color: #c3073f;
   border-radius: 2px;
   border: 1px solid black;
 }
 
+.formStyle button:hover{
+  background: #c3073f;
+  color: #1A1A1D;
+  border-radius: 2px;
+  border: 1px solid black;
+}
 
 
 /* FOOTER */
