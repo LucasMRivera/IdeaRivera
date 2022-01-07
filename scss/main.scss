@@ -1,0 +1,50 @@
+@import "../css/partials/footer";
+@import "../css/partials/variables";
+@import "../css/partials/reset";
+@import "../css/partials/header";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&display=swap');
+
+
+
+
+/* main */
+
+/* Main Section 1 */
+
+.main__section{
+  background-image: url(../assets/NFmainbackround.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    & h1{
+    color: $maincolor;
+    font-weight: bold;
+  }
+}
+
+
+.main__section a{
+  
+  font-size: 1.5rem;
+  color: $color3;
+  background-color: $maincolor;
+  width: 8rem;
+  height: 3rem;
+  border: 2px solid $color3;
+    &:hover{
+    background-color: $color3;
+    color: $color2;
+    transform: scale(1.5,1.5);
+  }
+}
+
+
+/* Main Section 2 */
+
+.main__table .row{
+  background: $maincolor;
+}
+
