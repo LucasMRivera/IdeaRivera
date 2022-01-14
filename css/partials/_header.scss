@@ -2,7 +2,7 @@
 
 .navbar{
   background-color: #4E4E50;
-  border-bottom: 2px solid $color3;
+  border-bottom: 2px solid map-get($colors , color3);
   position: relative;
   z-index: 2;
 }
@@ -13,7 +13,7 @@ font-weight: bold;
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
   
-  background-color: $color3;
+  background-color: map-get($colors , color3);
   color: #1A1A1D;
   border-radius: 0.5rem;
   padding: 0.5rem 0.5rem;
@@ -22,5 +22,5 @@ font-weight: bold;
 
 .navbar-dark .navbar-nav .nav-link {
   
-  color: $color3;
+  color: map-get($colors , color3);
 }

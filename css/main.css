@@ -28,8 +28,6 @@
 .navbar-dark .navbar-nav .nav-link {
   color: #f5f4e8; }
 
-/* main */
-/* Main Section 1 */
 .main__section {
   background-image: url(../assets/NFmainbackround.jpg);
   background-repeat: no-repeat;
@@ -54,6 +52,36 @@
     color: #1A1A1D;
     transform: scale(1.5, 1.5); }
 
-/* Main Section 2 */
 .main__table .row {
   background: #c3073f; }
+
+.aboutStyle img {
+  height: 300px;
+  width: 100%; }
+
+.card-img, .card-img-bottom, .card-img-top {
+  height: 80vh; }
+
+.galleryStyle img, svg {
+  height: 200px;
+  border-radius: 10px;
+  width: 300px; }
+  .galleryStyle img:hover, svg:hover {
+    transform: rotate(5deg); }
+
+.formStyle .row .formBorder {
+  border: 1px solid #1A1A1D;
+  border-radius: 10px; }
+
+.formStyle {
+  background: #c3073f; }
+  .formStyle button {
+    background: #1A1A1D;
+    color: #c3073f;
+    border-radius: 2px;
+    border: 1px solid black; }
+    .formStyle button:hover {
+      background: #c3073f;
+      color: #1A1A1D;
+      border-radius: 2px;
+      border: 1px solid black; }
