@@ -73,15 +73,14 @@
   border: 1px solid #1A1A1D;
   border-radius: 10px; }
 
-.formStyle {
+.formStyle, .formStyle button:hover {
   background: #c3073f; }
-  .formStyle button {
+  .formStyle button, .formStyle button:hover button {
     background: #1A1A1D;
     color: #c3073f;
     border-radius: 2px;
     border: 1px solid black; }
     .formStyle button:hover {
-      background: #c3073f;
       color: #1A1A1D;
       border-radius: 2px;
       border: 1px solid black; }

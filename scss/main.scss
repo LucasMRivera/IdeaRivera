@@ -4,14 +4,18 @@
 @import "../css/partials/header";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&display=swap');
 
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .main__section{
   background-image: url(../assets/NFmainbackround.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 40rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex;
     & h1{
     color: map-get($colors , maincolor);
     font-weight: bold;
@@ -68,10 +72,11 @@
     color: #c3073f;
     border-radius: 2px;
     border: 1px solid black;
-    .formStyle .button:hover{
-      @extend .formStyle .button:hover;
-      background: #c3073f;
+    &:hover{
+      @extend .formStyle;
       color: #1A1A1D;
+      border-radius: 2px;
+      border: 1px solid black;
     }
   }
 }
